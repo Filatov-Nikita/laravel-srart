@@ -151,6 +151,7 @@ return [
          * Package Service Providers...
          */
 
+         App\Providers\CounterServiceProvider::class,
         /*
          * Application Service Providers...
          */

@@ -13,7 +13,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        // spl_autoload_register(function ($class) {
+        //   //  $class = strtolower($class);
+        //     $className = 'App/Includes/' .$class . '.php';
+        //     include_once($className);
+        // });
+
     }
 
     /**
